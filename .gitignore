@@ -1,0 +1,25 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+.ropeproject/
+
+
+
+# Ignore virtual environment
+venv/
+
+# Ignore environment variables file
+.env/*
+
+# Ignore log files
+logs/*
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+#placeholder
+
+!logs/log_config.yaml
+!.env/env.sample
