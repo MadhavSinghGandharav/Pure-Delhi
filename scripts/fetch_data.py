@@ -94,5 +94,3 @@ class FetchData :
 
 data = FetchData()
 data.run()
-df = data.get_dataframe()
-print(df)
